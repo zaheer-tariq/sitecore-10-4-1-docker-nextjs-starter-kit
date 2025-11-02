@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+	<appSettings configBuilders="SitecoreAppSettingsBuilder">
+		<add key="env:define" value="DEV" xdt:Transform="InsertIfMissing" xdt:Locator="Match(key)" />
+	</appSettings>
+  <system.webServer>
+    <httpProtocol>
+      <customHeaders>
+        <add name="basiccompany" xdt:Locator="Match(name)" value="Role transform" xdt:Transform="SetAttributes(value)" />
+      </customHeaders>
+    </httpProtocol>
+  </system.webServer>
+</configuration>

@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Files", "_Solution Files", "{196B5D43-B228-4632-9BC3-EAAF79B4EDA5}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+		README.md = README.md
+		sitecore.json = sitecore.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{048FBE1B-28B2-44DF-8219-F11A69F0F375}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{8B12C6FC-A1D9-4816-A16B-3C7C9CE27FEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{376A81EE-D20F-4892-849C-5BB10B4E9226}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicCompany", "BasicCompany", "{6D41B93E-7774-4B02-8611-F94D6B18FB31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{E3F7B2CF-ED36-4F7E-AA78-CA4F1810DD73}"
+	ProjectSection(SolutionItems) = preProject
+		src\platform\Project\BasicCompany\BasicCompany.module.json = src\platform\Project\BasicCompany\BasicCompany.module.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Deployment", "_Deployment", "{267536B4-DFF1-4DF1-83D0-C134B149771A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCompany.Deployment", "src\platform\_Deployment\website\BasicCompany.Deployment.csproj", "{F8A71E4A-0890-4C79-AD35-764B650EC869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCompany.Project.BasicCompany.Platform", "src\platform\Project\BasicCompany\website\BasicCompany.Project.BasicCompany.Platform.csproj", "{822FD80A-D01B-48FE-A0F7-8E1E1B0176F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multisite", "Multisite", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		src\platform\Foundation\Multisite\Multisite.module.json = src\platform\Foundation\Multisite\Multisite.module.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicContent", "BasicContent", "{1508560E-E2A9-4DF5-883C-B842E497A9BE}"
+	ProjectSection(SolutionItems) = preProject
+		src\platform\Feature\BasicContent\BasicContent.module.json = src\platform\Feature\BasicContent\BasicContent.module.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{BB50B8D0-D291-4991-B94D-243463AB822F}"
+	ProjectSection(SolutionItems) = preProject
+		src\platform\Feature\Navigation\Navigation.module.json = src\platform\Feature\Navigation\Navigation.module.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8A71E4A-0890-4C79-AD35-764B650EC869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A71E4A-0890-4C79-AD35-764B650EC869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A71E4A-0890-4C79-AD35-764B650EC869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A71E4A-0890-4C79-AD35-764B650EC869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822FD80A-D01B-48FE-A0F7-8E1E1B0176F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822FD80A-D01B-48FE-A0F7-8E1E1B0176F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822FD80A-D01B-48FE-A0F7-8E1E1B0176F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822FD80A-D01B-48FE-A0F7-8E1E1B0176F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D41B93E-7774-4B02-8611-F94D6B18FB31} = {376A81EE-D20F-4892-849C-5BB10B4E9226}
+		{E3F7B2CF-ED36-4F7E-AA78-CA4F1810DD73} = {6D41B93E-7774-4B02-8611-F94D6B18FB31}
+		{F8A71E4A-0890-4C79-AD35-764B650EC869} = {267536B4-DFF1-4DF1-83D0-C134B149771A}
+		{822FD80A-D01B-48FE-A0F7-8E1E1B0176F6} = {6D41B93E-7774-4B02-8611-F94D6B18FB31}
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {048FBE1B-28B2-44DF-8219-F11A69F0F375}
+		{1508560E-E2A9-4DF5-883C-B842E497A9BE} = {8B12C6FC-A1D9-4816-A16B-3C7C9CE27FEF}
+		{BB50B8D0-D291-4991-B94D-243463AB822F} = {8B12C6FC-A1D9-4816-A16B-3C7C9CE27FEF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {7A7C4987-3A11-41A9-8915-5457EF7B5A6F}
+	EndGlobalSection
+EndGlobal
