@@ -6,7 +6,7 @@ This is a fully automated, updated version of [Sitecore Docker Helix Basic Compa
 
 1- Install the following Software
 - [Nodejs 22.x](https://nodejs.org/en/download)
-- [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) & [.NET Framework 4.8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
+- [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) & [.NET Framework 4.8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
 - [Visual Studio >= 2019](https://visualstudio.microsoft.com/downloads/) & [Visual Studio Code](https://visualstudio.microsoft.com/downloads/)
 - [Docker for Windows](https://docs.docker.com/desktop/setup/install/windows-install/), with Windows Containers enabled
 
