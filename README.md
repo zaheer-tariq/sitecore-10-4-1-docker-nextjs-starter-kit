@@ -4,17 +4,23 @@ This is a fully automated, updated version of [Sitecore Docker Helix Basic Compa
 
 ## Don't Like Reading? -> Get to action
 
-1- Install the following Software
-- [Nodejs 22.x](https://nodejs.org/en/download)
-- [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) & [.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.22-windows-x64-installer?cid=getdotnetcore)
-- [Visual Studio >= 2019](https://visualstudio.microsoft.com/downloads/) & [Visual Studio Code](https://visualstudio.microsoft.com/downloads/)
-- [Docker for Windows](https://docs.docker.com/desktop/setup/install/windows-install/), with Windows Containers enabled
-
-2- Make sure IIS is stopped, you can run this in Windows PowerShell after running it as Administrator
+1- Make sure IIS is stopped, you can run this in Windows PowerShell after running it as Administrator
    ```
    iisreset /stop
    ```
-3- Open Windows PowerShell as Administrator and run this command, make sure license file exists at the path below
+
+2- Make sure Virtualization is enabled, Hyper-V and Containers are installed, you can also install Hyper-V and Containers using this command in Windows PowerShell after running it as Administrator
+   ```
+   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All, Containers -All -NoRestart
+   ```   
+   
+3- Install the following Software
+- [Nodejs 22.x](https://nodejs.org/en/download)
+- [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) & [.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.22-windows-x64-installer?cid=getdotnetcore)
+- [Docker for Windows](https://desktop.docker.com/win/main/amd64/149282/Docker%20Desktop%20Installer.exe), with Windows Containers enabled. This is tested with Docker for Windows Version 4.30.0 (149282)
+- [Visual Studio >= 2019](https://visualstudio.microsoft.com/downloads/) & [Visual Studio Code](https://visualstudio.microsoft.com/downloads/) Optional for development later.
+
+4- Open Windows PowerShell as Administrator and run this command, make sure license file exists at the path below
    ```ps1
    .\init.ps1 -InitEnv -LicenseXmlPath "C:\Projects\license.xml" -AdminPassword "b"
    ```
