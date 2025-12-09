@@ -1,6 +1,11 @@
 # Sitecore 10.4.1 Docker Next.js Basic Company Starter Kit
 
-This is a fully automated, updated version of [Sitecore Docker Helix Basic Company with Next.js](https://github.com/Sitecore/Helix.Examples/tree/master/examples/helix-basic-nextjs) starter kit that is designed to run Sitecore on Docker Containers, the Sitecore Next.js SDK, and Sitecore Content Serialization.
+This is a fully automated, updated version of [Sitecore Docker Helix Basic Company with Next.js](https://github.com/Sitecore/Helix.Examples/tree/master/examples/helix-basic-nextjs) starter kit that is designed to run Sitecore on Docker Containers, the Sitecore Next.js SDK, and Sitecore Content Serialization. You can check these blog posts if you need Video tutorial and step by step instructions on setting it up.
+
+1- [Video Tutorial: Setting up Sitecore 10.4.1 with Next.js Helix Examples using Docker for Windows](https://sitecore.zaheertariq.com/2025/11/setting-up-sitecore-10-4-1-with-next-js-helix-example-using-docker-for-windows/)
+
+2- [Video Tutorial: Setting up Sitecore Docker Solution Without Docker – Fast and Reliable Sitecore Developer Setup](https://sitecore.zaheertariq.com/2025/11/video-tutorial-setting-up-sitecore-docker-solution-without-docker-fast-and-reliable-sitecore-developer-setup/)
+
 
 ## Don't Like Reading? -> Get to action
 
